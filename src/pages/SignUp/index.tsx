@@ -29,7 +29,6 @@ const SignUp: React.FC = () => {
         abortEarly: false,
       });
 
-
     } catch (err) {
       const errors = getValidationErrors(err);
 
